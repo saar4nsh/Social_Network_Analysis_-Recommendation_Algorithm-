@@ -12,8 +12,8 @@ This project aims to develop a recommendation algorithm for social media network
   - [Kosaraju's Algorithm](#kosarajus-algorithm)
   - [Tarjan's Algorithm](#tarjans-algorithm)
 - [Output](#output)
-- [Build and Run](#build-and-run)
-- [License](#license)
+- [Contact](#contact)
+
 
 ## Introduction
 
@@ -84,9 +84,22 @@ Kosaraju's algorithm consists of three main steps:
    2. Reverse the graph.
    3. Perform a DFS on the reversed graph to find SCCs.
 
+Time Complexity Analysis:
+   1. **Topological Sort:** O(V + E)
+   2. **Reversing the Graph:** O(V + E)
+   3. **DFS on Reversed Graph:** O(V + E)
+
+Thus, the overall time complexity for Kosaraju's algorithm is O(V + E), where V is the number of vertices and E is the number of edges.
+
 **Tarjan's Algorithm**
 
 Tarjan's algorithm uses DFS to find SCCs in a single pass. It maintains discovery and low values to track the smallest discovery time reachable from each node.
+
+Time Complexity Analysis:
+   1. **DFS Traversal:** O(V + E)
+   2. **Maintaining discovery and low values:** O(1) for each operation
+
+As a result, the overall time complexity for Tarjan's algorithm is O(V + E), similar to Kosaraju's algorithm.
 
 ## Output
 
@@ -97,3 +110,7 @@ The program displays:
    - Mutual friend recommendations.
    - Add-back recommendations.
 
+##Contact
+
+  -Name: Saaransh Sharma
+  -GitHub: saar4nsh
