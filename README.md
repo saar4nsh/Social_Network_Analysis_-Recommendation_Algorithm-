@@ -110,7 +110,7 @@ The program displays:
    - Mutual friend recommendations.
    - Add-back recommendations.
 
-##Contact
+## Contact
 
   -Name: Saaransh Sharma
   -GitHub: saar4nsh
