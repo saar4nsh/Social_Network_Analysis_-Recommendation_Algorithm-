@@ -40,11 +40,11 @@ The aim of this project is to find a recommendation algorithm for social media n
    ```sh
    git clone https://github.com/yourusername/social_network_analysis_recommendation_algorithm.git
    cd social_network_analysis_recommendation_algorithm
-``
-2. **Clone the repository**:
+
+2. **Build and Run**:
    ```sh
    gcc project.c -o project
    ./project.exe
-```
+  
 3. **Follow the prompts** to choose between Tarjan's and Kosaraju's algorithms and view the SCCs and recommendations.
 
