@@ -498,7 +498,7 @@ for(int i=1;i<g->comp;i++)
         }
         printf("\n");
     }
-    printf("The following are mutual friend recommendations\n");
+    printf("The following are SCC recommendations\n");
 for(int i=1;i<g->comp;i++)
 {   
     node *current,*nxt;
